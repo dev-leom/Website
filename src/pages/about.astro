@@ -1,0 +1,25 @@
+---
+import Nav from "../components/Nav";
+import "../styles/styles.css";
+import { ViewTransitions } from "astro:transitions";
+import { fade } from "astro:transitions";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>About</title>
+        <ViewTransitions />
+    </head>
+    <body class="bg-gray-500">
+        <Nav
+            client:only
+            transition:persist
+            transition:animate={fade({ duration: "0.2" })}
+        />
+        <p>current url {Astro.url.pathname}</p>
+    </body>
+</html>

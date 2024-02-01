@@ -17,6 +17,8 @@ export const POST: APIRoute = async ({ request }) => {
 
         const body = await request.json();
         const {email} = body;
+
+        
         //check email exist
         if(!email){
             throw new Error("PLEASE provide email");
