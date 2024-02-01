@@ -76,9 +76,9 @@ const SubscribeForm = () => {
 
     return (
     <form ref={formRef}className="grid gap-2 p-4 border-2" onSubmit={handleSub}>
-        <label htmlFor="email">Enter email</label>
+        <label htmlFor="email">Entre ton email</label>
         <input type="email" name="email" id="email" required/>
-        <button type="submit" disabled={isSubmitting}>Submit
+        <button type="submit" disabled={isSubmitting}>Envoyer
         </button>
         <Toaster />
     </form>
