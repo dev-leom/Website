@@ -1,0 +1,9 @@
+fix nav bar:
+
+
+A quick note as well, since you are using hooks inside the link map what you are essentially doing is 
+recreating a component for every render. Which is usually fine, if the list is not dynamic, but 
+I'm suspecting that the hooks will be called out of order if the list changes, which could cause weird side effects. 
+You could fix it by moving the map function out of the component, as a separate component, 
+and then just render that component in the map with a key. 
+I could be wrong though, could be something special about the motion hooks that allow them to be called like that.
