@@ -1,7 +1,7 @@
-"use client"
 
 import { cn } from "../lib/utils";
 import { MotionValue, motion, useMotionValue, AnimatePresence, useTransform } from "framer-motion";
+
 
 export default function Nav() {
     
@@ -67,19 +67,20 @@ export default function Nav() {
                             x.set(0)
                             y.set(0)
                         }} style={{x, y}}>
-                            <motion.a className={cn("font-medium relative rounded-md text-base py-2 px-4 transition-all duration-500 ease-out hover:bg-slate-200",
+                            <motion.a className={cn("font-medium relative rounded-md text-base py-2 px-4 transition-all duration-500 ease-out hover:bg-slate-300",
                             pathname === link.path ? "bg-slate-300" : ""
                             )} href={link.path}>
                                 <motion.span style={{x: textX, y: textY}} className="z-10 relative">
                                     {link.name}
-                                    </motion.span>
+                                </motion.span>
                                 {pathname === link.path ? (
                                     <motion.div
-                                    transition={{type: "spring"}}
-                                    layoutId="underline"
-                                    className="absolute w-full h-full rounded-md left-0 bottom-0 bg-blue-300">
+                                    transition={{ type: "spring" }}
+                                    
+                                    className="absolute w-full h-full rounded-md left-0 bottom-0 bg-blue-500">
 
-                                    </motion.div> ): null}
+                                    </motion.div> 
+                                    ) : null}
                             </motion.a>
                         </motion.li>
                     )

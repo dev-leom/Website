@@ -1,25 +1,12 @@
 ---
-import Nav from "../components/Nav";
-import "../styles/styles.css";
-import { ViewTransitions } from "astro:transitions";
-import { fade } from "astro:transitions";
+import Layout from "../layouts/layout.astro";
+import SubscribeForm from "../components/SubscribeForm";
 ---
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
-        <title>Bio</title>
-        <ViewTransitions />
-    </head>
-    <body class="bg-gray-300">
-        <Nav
-            client:only
-            transition:persist
-            transition:animate={fade({ duration: "0.2" })}
-        />
-        <p>current url {Astro.url.pathname}</p>
-    </body>
-</html>
+<Layout title="Bio">
+    <div class="grid gap-4">
+        <h1 class="text-2xl font-bold">Abonnement à la mailing list</h1>
+        <!--Mail Form -->
+        <SubscribeForm />
+    </div>
+</Layout>

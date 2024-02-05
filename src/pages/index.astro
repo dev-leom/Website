@@ -1,31 +1,12 @@
 ---
+import Layout from "../layouts/layout.astro";
 import SubscribeForm from "../components/SubscribeForm";
-import Nav from "../components/Nav";
-import "../styles/styles.css";
-import { ViewTransitions } from "astro:transitions";
-import { fade } from "astro:transitions";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Home</title>
-		<ViewTransitions />
-	</head>
-	<body class="bg-gray-300">
-		<Nav
-			client:only
-			transition:persist
-			transition:animate={fade({ duration: "0.2" })}
-		/>
-		<div class="grid gap-4">
-			<h1 class="text-2xl font-bold">Abonnement à la mailing list</h1>
-			<!--form -->
-			<SubscribeForm client:load data-astro-reload />
-		</div>
-		<p>l'animation de la nav bar n'est pas correcte</p>
-	</body>
-</html>
+<Layout title="Home page">
+	<div class="grid gap-4">
+		<h1 class="text-2xl font-bold">Abonnement à la mailing list</h1>
+		<!--Mail Form -->
+		<SubscribeForm />
+	</div>
+</Layout>

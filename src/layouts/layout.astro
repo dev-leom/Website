@@ -1,0 +1,29 @@
+---
+import { ViewTransitions, fade } from "astro:transitions";
+import "../styles/styles.css";
+import Nav from "../components/Nav";
+const { pathname } = Astro.url;
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Astro description" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+        <ViewTransitions />
+    </head>
+    <body
+        class="bg-theme-base text-theme-900"
+        transition:animate={fade({ duration: "0.4s" })}
+    >
+        <Nav transition:animate="none" client:only />
+        <div transition:animate="slide">
+            <slot />
+        </div>
+        <p>{pathname}</p>
+    </body>
+</html>
