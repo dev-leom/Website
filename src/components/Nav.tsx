@@ -1,4 +1,3 @@
-export const prerender = false;
 import { cn } from "../lib/utils";
 import { MotionValue, motion, useMotionValue, AnimatePresence, useTransform } from "framer-motion";
 
