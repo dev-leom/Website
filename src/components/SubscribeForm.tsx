@@ -13,7 +13,7 @@ const SubscribeForm = () => {
         
 
         if(isSubmitting) return;
-        setIsSubmitting(true);
+        setIsSubmitting(false);
         const subToast = toast.loading("Envoi...");
 
 
@@ -35,8 +35,9 @@ const SubscribeForm = () => {
             return toast.error("Merci de bien entrer une adresse mail Valide", {
                 id: subToast,
             });
+            
         }
-
+        
         try {
             const res = await fetch("/api/subscribe.json", {
                 method: "POST",
@@ -63,7 +64,7 @@ const SubscribeForm = () => {
         } catch (e) {
             setIsSubmitting(false);
             toast.error("Un probleme est survenu merci de reessayer", {
-                    id: subToast
+                    id: subToast,
             });
             if (e instanceof Error) {
                 return console.error(e.message);
@@ -75,7 +76,7 @@ const SubscribeForm = () => {
 
 
     return (
-    <form ref={formRef}className="grid gap-2 p-4 border-2 border-black" onSubmit={handleSub}>
+    <form ref={formRef} className="grid gap-2 p-4 border-2 border-black" onSubmit={handleSub}>
         <label htmlFor="email">Entre ton email</label>
         <input className="bg-slate-800 text-white" type="email" name="email" id="email" required/>
         <button type="submit" disabled={isSubmitting}>Envoyer

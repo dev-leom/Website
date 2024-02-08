@@ -7,15 +7,27 @@ export default function Nav() {
     const links = [
         {
             path: "/",
-            name: "home",
+            name: "Accueil",
         },
         {
-            path:"/about",
-            name:"about",
+            path:"/contact",
+            name:"Contact",
         },
         {
-            path: "/bio",
-            name: "bio",
+            path: "/devis",
+            name: "Devis",
+        },
+        {
+            path: "/galerie",
+            name: "Galerie",
+        },
+        {
+            path: "/blog",
+            name: "Blog",
+        },
+        {
+            path:"",
+            name: "Mon Compte",
         },
     ]
 

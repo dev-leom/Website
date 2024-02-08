@@ -72,7 +72,7 @@ export const POST: APIRoute = async ({ request }) => {
 
         return new Response(
             JSON.stringify({
-                message: "Merci pour ton abonnement, check tes mails pour confirmer ton abonnement",
+                message: "Merci pour ton abonnement, regarde tes mails pour confirmer ton abonnement",
             }), {
                 status: 200,
                 statusText: "OK"
@@ -90,11 +90,4 @@ export const POST: APIRoute = async ({ request }) => {
             statusText: "unexpected error",
     });
     }
-
-
-    return new Response(
-        JSON.stringify({
-            message:"this was a POST"
-        })
-    );
 };

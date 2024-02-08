@@ -4,7 +4,6 @@ import "../styles/styles.css";
 import Nav from "../components/Nav";
 import SubscribeForm from "../components/SubscribeForm";
 import SpeedInsights from "@vercel/speed-insights/astro";
-const { pathname } = Astro.url;
 const { title } = Astro.props;
 ---
 
@@ -23,11 +22,9 @@ const { title } = Astro.props;
         class="bg-theme-base text-theme-900"
         transition:animate={fade({ duration: "0.3" })}
     >
-        <Nav transition:name="navbar" client:only />
-        <div transition:animate="slide">
+        <div>
             <slot />
         </div>
-        <p>{pathname}</p>
         <h1 class="text-2xl font-bold">Abonnement à la mailing list</h1>
         <SubscribeForm client:visible />
     </body>
