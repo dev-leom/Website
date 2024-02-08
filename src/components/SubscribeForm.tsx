@@ -32,7 +32,7 @@ const SubscribeForm = () => {
 
         //validate email
         if(!validateEmail((email as string).trim())){
-            return toast.error("Merci de bien entrer une adresse mail Valide", {
+            return toast.error("Merci de bien entrer une adresse mail valide", {
                 id: subToast,
             });
             
@@ -81,7 +81,13 @@ const SubscribeForm = () => {
         <input className="bg-slate-800 text-white" type="email" name="email" id="email" required/>
         <button type="submit" disabled={isSubmitting}>Envoyer
         </button>
-        <Toaster />
+        <Toaster 
+        position="top-center"
+        gutter={10}
+        containerClassName="toasterofemailform"
+        toastOptions={{
+            duration: 5000,
+        }}/>
     </form>
     );
 };

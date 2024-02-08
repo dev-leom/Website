@@ -127,3 +127,7 @@ span,
 li {
     transition: all 1s var(--elastic-out)
 }
+
+toasterofemailform{
+  background: base
+}
