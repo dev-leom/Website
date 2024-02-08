@@ -76,7 +76,7 @@ export default function Nav() {
                                     <motion.div
                                     transition={{ type: "spring" }}
                                     
-                                    className="absolute w-full h-full rounded-md left-0 bottom-0 bg-blue-500">
+                                    className="absolute w-full h-full rounded-md left-0 bottom-0 bg-green-700">
 
                                     </motion.div> 
                                     ) : null}
