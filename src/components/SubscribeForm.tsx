@@ -76,10 +76,10 @@ const SubscribeForm = () => {
 
 
     return (
-    <form ref={formRef} className="grid gap-2 p-4 border-2 border-black" onSubmit={handleSub}>
-        <label htmlFor="email">Entre ton email</label>
-        <input className="bg-theme-base text-white" type="email" name="email" id="email" required/>
-        <button type="submit" disabled={isSubmitting}>Envoyer
+    <form ref={formRef} className="grid gap-2 p-4 border-2 border-theme-900 rounded-md" onSubmit={handleSub}>
+        <label htmlFor="email" className="text-theme-900 text-lg">Entre ton email</label>
+        <input className="bg-theme-base text-theme-900" type="email" name="email" id="email" required/>
+        <button className="rounded-full bg-green-700 max-w-32" type="submit" disabled={isSubmitting}>Envoyer
         </button>
         <Toaster 
         position="top-center"
