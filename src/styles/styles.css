@@ -33,7 +33,7 @@
       1
     );
     /* light mode defaults */
-    --color-theme-light: 210 40% 99%;
+    --color-theme-light: 159, 51%, 14%;
     --color-theme-light-100: 210 40% 96.1%;
     --color-theme-light-200: 214 31.8% 91.4%;
     --color-theme-light-400: 215 20.2% 65.1%;
@@ -128,6 +128,3 @@ li {
     transition: all 1s var(--elastic-out)
 }
 
-toasterofemailform{
-  background: base
-}

@@ -78,15 +78,15 @@ const SubscribeForm = () => {
     return (
     <form ref={formRef} className="grid gap-2 p-4 border-2 border-black" onSubmit={handleSub}>
         <label htmlFor="email">Entre ton email</label>
-        <input className="bg-slate-800 text-white" type="email" name="email" id="email" required/>
+        <input className="bg-theme-base text-white" type="email" name="email" id="email" required/>
         <button type="submit" disabled={isSubmitting}>Envoyer
         </button>
         <Toaster 
         position="top-center"
         gutter={10}
-        containerClassName="toasterofemailform"
         toastOptions={{
             duration: 5000,
+            className: 'bg-theme-base text-theme-900',
         }}/>
     </form>
     );
