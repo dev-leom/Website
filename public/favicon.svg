@@ -1,44 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-  <rect x="-1.372" y="-0.499" width="501.713" height="499.962" style="stroke: rgb(0, 0, 0);"/>
-  <g transform="matrix(1.452301025390625, 0, 0, 1.452301025390625, -115.63390350341797, -116.1305923461914)">
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect x="-23.313" width="1108.287" height="1058.074" style="stroke: rgba(0, 0, 0, 0); fill: rgb(18, 55, 42);" y="-17"/>
+  <g>
+    <title>PISTES</title>
+    <path d="M 146.983 512 M 512 146.983 C 713.593 146.983 877.017 310.407 877.017 512" style="stroke-width: 4px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(251, 250, 218); fill: rgba(251, 250, 218, 0);"/>
+    <path d="M 184 512 M 512 184 C 693.149 184 840 330.851 840 512" style="stroke-width: 4px; stroke: rgb(251, 250, 218); fill: rgba(251, 250, 218, 0);"/>
+    <path d="M 219 512 M 512 219 C 673.819 219 805 350.181 805 512" style="stroke-width: 4px; stroke: rgb(251, 250, 218); fill: rgba(251, 250, 218, 0);"/>
+    <path d="M 256 512 M 512 256 C 653.385 256 768 370.615 768 512" style="stroke-width: 4px; stroke: rgb(251, 250, 218); fill: rgba(251, 250, 218, 0);"/>
+    <path d="M 512 877 C 310.416 877 147 713.584 147 512" style="stroke-width: 4px; stroke: rgb(251, 250, 218); fill: rgba(251, 250, 218, 0);"/>
+    <path d="M 512 840 C 330.851 840 184 693.149 184 512" style="stroke-width: 4px; stroke: rgb(251, 250, 218); fill: rgba(251, 250, 218, 0);"/>
+    <path d="M 512 805 C 350.181 805 219 673.819 219 512" style="stroke-width: 4px; stroke: rgb(251, 250, 218); fill: rgba(251, 250, 218, 0);"/>
+    <path d="M 512 768 C 503.164 768 494.432 767.552 485.826 766.678 C 477.22 765.804 468.739 764.504 460.407 762.799 C 452.075 761.094 443.89 758.984 435.874 756.491 C 427.858 753.998 420.011 751.121 412.354 747.882 C 404.697 744.644 397.231 741.043 389.976 737.102 C 382.721 733.161 375.679 728.88 368.869 724.279 C 362.059 719.679 355.482 714.759 349.161 709.542 C 342.839 704.325 336.772 698.81 330.981 693.019 C 325.19 687.228 319.676 681.161 314.458 674.839 C 309.241 668.518 304.321 661.942 299.721 655.132 C 295.12 648.323 290.839 641.28 286.898 634.025 C 282.957 626.771 279.357 619.304 276.118 611.647 C 272.88 603.991 270.003 596.143 267.51 588.127 C 265.017 580.111 262.907 571.926 261.201 563.594 C 259.496 555.262 258.196 546.782 257.322 538.175" style="stroke-width: 4px; stroke: rgb(251, 250, 218); fill: rgba(251, 250, 218, 0);"/>
+    <path d="M 512 733 C 504.372 733 496.833 732.614 489.404 731.859 C 481.975 731.105 474.654 729.982 467.461 728.51 C 460.268 727.038 453.201 725.217 446.281 723.065 C 439.361 720.912 432.586 718.429 425.976 715.633 C 419.366 712.838 412.92 709.729 406.657 706.327 C 400.395 702.925 394.315 699.228 388.436 695.257 C 382.558 691.285 376.88 687.039 371.423 682.535 C 365.965 678.031 360.728 673.27 355.729 668.271 C 350.73 663.272 345.969 658.034 341.465 652.577 C 336.962 647.12 332.715 641.442 328.743 635.564 C 324.772 629.685 321.076 623.605 317.673 617.343 C 314.271 611.08 311.163 604.634 308.367 598.024 C 305.572 591.414 303.088 584.64 300.936 577.72 C 298.784 570.8 296.962 563.734 295.49 556.54 C 294.018 549.347 292.896 542.026 292.141 534.596 M 512 291 C 519.629 291 527.167 291.387 534.596 292.141 C 542.026 292.896 549.347 294.018 556.54 295.49 C 563.734 296.962 570.8 298.784 577.72 300.936 C 584.64 303.088 591.414 305.572 598.024 308.367 C 604.634 311.163 611.08 314.271 617.343 317.673 C 623.606 321.076 629.686 324.772 635.564 328.743 C 641.442 332.715 647.12 336.962 652.577 341.465 C 658.034 345.969 663.272 350.73 668.271 355.729 C 673.27 360.728 678.031 365.966 682.535 371.423 C 687.039 376.88 691.285 382.558 695.257 388.436 C 699.228 394.315 702.925 400.395 706.327 406.658 C 709.729 412.921 712.837 419.366 715.633 425.976 C 718.429 432.587 720.912 439.361 723.064 446.281 C 725.217 453.202 727.038 460.268 728.51 467.461 C 729.982 474.654 731.104 481.975 731.859 489.404 C 732.613 496.833 733 504.371 733 512" style="stroke-width: 4px; stroke: rgb(251, 250, 218); fill: rgba(251, 250, 218, 0);"/>
+  </g>
+  <g transform="matrix(2.639857, 0, 0, 2.618437, 260.198578, 261.442118)" style="transform-origin: 251.801px 250.558px;">
     <title>LOGO</title>
     <g style="pointer-events: none;">
       <title>Vinyl(O)</title>
-      <ellipse style="fill-opacity: 0; pointer-events: none; stroke-width: 12px; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" cx="186.503" cy="213.422" rx="150" ry="150" transform="matrix(1, -0.000001, 0.000001, 1, 69.4963, 42.577991)">
+      <ellipse style="fill-opacity: 0; stroke-width: 12px; transform-origin: 182.305px 207.987px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" cx="182.305" cy="207.987" rx="150.186" ry="151.426" transform="matrix(1, -0.000001, 0.000001, 1, 69.496518, 42.570576)">
         <title>BIG</title>
       </ellipse>
-      <ellipse style="stroke-width: 12px; fill-opacity: 0; pointer-events: auto; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" cx="184.892" cy="215.57" rx="50" ry="50" transform="matrix(1, -0.000001, 0.000001, 1, 71.107538, 40.429744)">
+      <ellipse style="stroke-width: 12px; fill-opacity: 0; pointer-events: auto; transform-origin: 180.693px 211.63px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" cx="180.693" cy="211.57" rx="50.062" ry="50.469" transform="matrix(1, -0.000001, 0.000001, 1, 71.10774, 38.987967)">
         <title>MED</title>
       </ellipse>
-      <ellipse style="stroke-width: 12px; fill-opacity: 0; pointer-events: none; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" cx="185.125" cy="215.57" rx="15" ry="15" transform="matrix(1, -0.000001, 0.000001, 1, 70.874849, 40.429744)">
+      <ellipse style="stroke-width: 12px; transform-origin: 180.926px 209.9px; pointer-events: auto; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" cx="180.926" cy="209.9" rx="4.925" ry="4.965" transform="matrix(1, -0.000001, 0.000001, 1, 70.875058, 40.657795)">
         <title>LITL</title>
       </ellipse>
     </g>
-    <g style="pointer-events: none;">
+    <g style="">
       <title>BRAS(L)</title>
-      <rect style="pointer-events: none; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" x="100.278" y="100.62" width="50" height="16" rx="10" ry="10">
+      <rect style="stroke-width: 0.99304px; transform-origin: 253.139px 249.185px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" x="100.278" y="93.67" width="49.981" height="15.994" rx="10" ry="10">
         <title>TOP</title>
       </rect>
-      <rect style="pointer-events: none; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" x="216.436" y="122.498" width="155" height="16" rx="10" ry="10" transform="matrix(0, 1, -1, 0, 255.797989, -110.435966)"/>
-      <rect style="pointer-events: none; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" x="69.818" y="122.498" width="50" height="16" rx="10" ry="10" transform="matrix(0.866025, 0.5, -0.5, 0.866025, 122.986493, 101.859069)">
+      <rect style="stroke-width: 0.99304px; transform-origin: 363.746px 2.624px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" x="216.436" y="122.498" width="155" height="16" rx="10" ry="10" transform="matrix(0, 1, -1, 0, -110.607056, 245.918159)"/>
+      <rect style="pointer-events: none; stroke-width: 0.99304px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" x="69.818" y="122.498" width="50" height="16" rx="10" ry="10" transform="matrix(0.866025, 0.5, -0.5, 0.866025, 122.986496, 98.487236)">
         <title>L</title>
       </rect>
     </g>
-    <g>
+    <g style="transform-origin: 167.859px 278.995px;" transform="matrix(0.961742, 0.067801, -0.066706, 0.961742, -1.551895, -3.303742)">
       <title>TETE(E)</title>
-      <rect style="pointer-events: auto; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" x="64.232" y="91.874" width="46" height="12" rx="10" ry="10" transform="matrix(0.459949, -0.887945, 0.887945, 0.459949, 32.768206, 307.35463)">
+      <rect style="stroke-width: 0.99304px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" x="64.232" y="91.874" width="46" height="12" rx="10" ry="10" transform="matrix(0.459949, -0.887945, 0.887945, 0.459949, 32.768206, 307.35463)">
         <title>BIG</title>
       </rect>
-      <rect style="pointer-events: auto; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" x="39.098" y="76.561" width="28" height="10" rx="10" ry="10" transform="matrix(0.906279, 0.422679, -0.422679, 0.906279, 163.377928, 165.661758)">
+      <rect style="stroke-width: 0.99304px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" x="39.098" y="76.561" width="28" height="10" rx="10" ry="10" transform="matrix(0.906279, 0.422679, -0.422679, 0.906279, 163.377928, 165.661758)">
         <title>MED</title>
       </rect>
-      <rect style="pointer-events: auto; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" x="39.098" y="76.561" width="28" height="10" rx="10" ry="10" transform="matrix(0.906279, 0.422679, -0.422679, 0.906279, 148.565855, 178.933578)">
+      <rect style="stroke-width: 0.99304px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" x="39.098" y="76.561" width="28" height="10" rx="10" ry="10" transform="matrix(0.906279, 0.422679, -0.422679, 0.906279, 148.565855, 178.933578)">
         <title>LITL</title>
       </rect>
-      <rect style="pointer-events: auto; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" x="39.098" y="76.561" width="28" height="10" rx="10" ry="10" transform="matrix(0.906279, 0.422679, -0.422679, 0.906279, 146.010786, 199.606689)">
+      <rect style="stroke-width: 0.99304px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" x="39.098" y="76.561" width="28" height="10" rx="10" ry="10" transform="matrix(0.906279, 0.422679, -0.422679, 0.906279, 146.010786, 199.606689)">
         <title>MED</title>
       </rect>
+    </g>
+    <g style="visibility: hidden;">
+      <title>PLAYPAUSE</title>
+      <rect style="fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" x="53.362" y="58.516" width="38.215" height="7.643" rx="10" ry="10" transform="matrix(-0.000067, 1, -1, -0.000067, 349.431519, 194.243759)">
+        <title>PAUSE</title>
+      </rect>
+      <rect style="transform-origin: 72.47px 97.874px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" x="53.362" y="91.874" width="38.215" height="12" rx="10" ry="10" transform="matrix(-0.000067, 1, -1, -0.000067, 230.844678, 168.837223)">
+        <title>PAUSE</title>
+      </rect>
+      <path d="M 421.648 351.47 Q 424.833 346.203 428.017 351.47 L 442.878 376.052 Q 446.063 381.319 439.694 381.319 L 409.971 381.319 Q 403.602 381.319 406.787 376.052 Z" style="transform-origin: 424.832px 365.078px; fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);" transform="matrix(0, 1, -1, 0, -160.946075, -101.707275)" bx:shape="triangle 403.602 346.203 42.461 35.116 0.5 0.15 1@29d5930f">
+        <title>PLAY</title>
+      </path>
+      <rect x="241.4" y="235.864" width="103.742" height="58.151" style="fill: rgb(251, 250, 218); stroke: rgb(251, 250, 218);"/>
     </g>
   </g>
 </svg>
