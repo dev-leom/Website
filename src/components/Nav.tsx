@@ -60,7 +60,7 @@ export default function Nav() {
 
 
     return(
-        <nav className="p-8">
+        <nav className="p-8 bg-slate-100">
             <ul className="flex gap-12">
                 <AnimatePresence>
                 {links.map(link => {
@@ -71,15 +71,15 @@ export default function Nav() {
 
 
                     return(
-                        <motion.li onPointerMove={(event) => {
+                        <motion.li  onPointerMove={(event) => {
                             const item = event.currentTarget;
                             setTransform(item, event, x, y)
                         }} key={link.path} onPointerLeave={(event) => {
                             x.set(0)
                             y.set(0)
                         }} style={{x, y}}>
-                            <motion.a className={cn("font-medium relative rounded-md text-base py-2 px-4 transition-all duration-500 ease-out hover:bg-slate-300",
-                            pathname === link.path ? "bg-slate-300" : ""
+                            <motion.a className={cn("font-medium relative rounded-md text-base py-2 px-4 transition-all duration-500 ease-out hover:bg-theme-100",
+                            pathname === link.path ? "bg-theme-navbg" : ""
                             )} href={link.path}>
                                 <motion.span style={{x: textX, y: textY}} className="z-10 relative">
                                     {link.name}
@@ -88,7 +88,7 @@ export default function Nav() {
                                     <motion.div
                                     transition={{ type: "spring" }}
                                     
-                                    className="absolute w-full h-full rounded-md left-0 bottom-0 bg-green-700">
+                                    className="absolute w-full h-full rounded-md left-0 bottom-0 bg-theme-200">
 
                                     </motion.div> 
                                     ) : null}

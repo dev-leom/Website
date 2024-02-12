@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["Inter Variable", "Inter"],
+				sans: ["Inter", "Inter Variable"],
 			},
 			colors: {
 				theme: {
@@ -13,9 +13,9 @@ export default {
 				  200: "hsl(var(--color-theme-200) / <alpha-value>)",
 				  400: "hsl(var(--color-theme-400) / <alpha-value>)",
 				  500: "hsl(var(--color-theme-500) / <alpha-value>)",
-				  600: "hsl(var(--color-theme-600) / <alpha-value>)",
 				  800: "hsl(var(--color-theme-800) / <alpha-value>)",
 				  900: "hsl(var(--color-theme-900) / <alpha-value>)",
+				  navbar: "hsl(var(--color-theme-light-navbg) / <alpha-value>)"
 				},
 				danger: "hsl(var(--color-danger) / <alpha-value>)",
 				success: "hsl(var(--color-success) / <alpha-value>)",

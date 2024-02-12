@@ -33,14 +33,14 @@
       1
     );
     /* light mode defaults */
-    --color-theme-light: 159, 51%, 14%;
-    --color-theme-light-100: 210 40% 96.1%;
-    --color-theme-light-200: 214 31.8% 91.4%;
-    --color-theme-light-400: 215 20.2% 65.1%;
-    --color-theme-light-500: 215 16.3% 46.9%;
-    --color-theme-light-600: 215 19.3% 34.5%;
-    --color-theme-light-800: 217 32.6% 17.5%;
-    --color-theme-light-900: 222 47.4% 11.2%;
+    --color-theme-light: 360 100% 100%;
+    --color-theme-light-100: 126 30% 72%;
+    --color-theme-light-200: 130 23% 64%;
+    --color-theme-light-400: 128 16% 52%;
+    --color-theme-light-500: 124 18% 31%;
+    --color-theme-light-800: 130 26% 9%;
+    --color-theme-light-900: 0 0% 0%;
+    --color-theme-light-navbg: 210 40% 96%;
     --color-danger-light: 0 90.6% 70.8%;
     --color-success-light: 142 69.2% 58%;
     --color-info-light: 213 93.9% 67.8%;
@@ -63,7 +63,6 @@
     --color-theme-200: var(--color-theme-light-200);
     --color-theme-400: var(--color-theme-light-400);
     --color-theme-500: var(--color-theme-light-500);
-    --color-theme-600: var(--color-theme-light-600);
     --color-theme-800: var(--color-theme-light-800);
     --color-theme-900: var(--color-theme-light-900);
     --color-danger: var(--color-danger-light);
@@ -78,7 +77,6 @@
       --color-theme-200: var(--color-theme-dark-200);
       --color-theme-400: var(--color-theme-dark-400);
       --color-theme-500: var(--color-theme-dark-500);
-      --color-theme-600: var(--color-theme-dark-600);
       --color-theme-800: var(--color-theme-dark-800);
       --color-theme-900: var(--color-theme-dark-900);
       --color-danger: var(--color-danger-dark);
@@ -93,7 +91,6 @@
     --color-theme-200: var(--color-theme-dark-200);
     --color-theme-400: var(--color-theme-dark-400);
     --color-theme-500: var(--color-theme-dark-500);
-    --color-theme-600: var(--color-theme-dark-600);
     --color-theme-800: var(--color-theme-dark-800);
     --color-theme-900: var(--color-theme-dark-900);
     --color-danger: var(--color-danger-dark);
@@ -107,7 +104,6 @@
     --color-theme-200: var(--color-theme-light-200);
     --color-theme-400: var(--color-theme-light-400);
     --color-theme-500: var(--color-theme-light-500);
-    --color-theme-600: var(--color-theme-light-600);
     --color-theme-800: var(--color-theme-light-800);
     --color-theme-900: var(--color-theme-light-900);
     --color-danger: var(--color-danger-light);
