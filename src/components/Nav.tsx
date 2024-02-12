@@ -60,7 +60,7 @@ export default function Nav() {
 
 
     return(
-        <nav className="p-8 bg-slate-100">
+        <nav className="p-8 bg-theme-navbg">
             <ul className="flex gap-12">
                 <AnimatePresence>
                 {links.map(link => {
