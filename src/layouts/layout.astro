@@ -29,5 +29,14 @@ const { title } = Astro.props;
         </div>
         <h1 class="text-2xl font-bold">Abonnement à la mailing list</h1>
         <SubscribeForm client:visible />
+        <script>
+            let docTitle = document.title;
+            window.addEventListener("blur", () => {
+                document.title = "En Pause 🫣";
+            });
+            window.addEventListener("focus", () => {
+                document.title = docTitle;
+            });
+        </script>
     </body>
 </html>
