@@ -1,3 +1,5 @@
+export const prerender = false
+
 import { useRef, useState } from "react";
 import toast, {Toaster} from "react-hot-toast";
 import validateEmail from "../lib/ValidateEmail";
