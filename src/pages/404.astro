@@ -1,0 +1,27 @@
+---
+import SubscribeForm from "../components/SubscribeForm";
+import "../styles/styles.css";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="description" content="Astro description" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Page Introuvable</title>
+    </head>
+    <body class="bg-theme-base text-theme-900">
+        <script>
+            let docTitle = document.title;
+            window.addEventListener("blur", () => {
+                document.title = "En Pause 🫣";
+            });
+            window.addEventListener("focus", () => {
+                document.title = docTitle;
+            });
+        </script>
+    </body>
+</html>
